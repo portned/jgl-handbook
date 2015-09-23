@@ -75,6 +75,8 @@ Kukin ryhmä saa käyttöönsä yhden Juomatehtaan huoneista. Jotkin ryhmät mah
 
 Mekaaninen avain ja sähköinen kulkulupa lunastetaan Jyväskylän yliopiston avaintenhallinnasta labramestarin ilmoittamana ajankohtana Mattilanniemen MaD-rakennuksesta. Sähköiset kulkuluvat jaetaan mahdollisimman pian JGL-jakson aloituksen jälkeen, ja mekaaniset avaimet lopullisten tiimien muodostamisen jälkeen. Ota avainten hakuun mukaan henkilöllisyystodistus (ajokortti käy). 
 
+Mikäli sinulla on jo yliopiston sähköinen avain, niin mainitse siitä, jotta kulkuoikeus Juomatehtaalle voidaan lisätä jo olemassaolevaan avaimeen.
+
 Viiden kuukauden labrajakson jälkeen avaimet palautetaan niinikään avainten hallintaan. Palauttamattomista avaimista seuraa osallistujan laskuttaminen. 
 
 ## IT-infra
@@ -169,7 +171,7 @@ Ryhmät suunnittelevat itselleen visuaalisen ilmeen, joka sisältää logon, ty�
 
  * *Peliposterin* formaatti on A2, neliväri, 1-puoleinen. Posteri sisältää Jukan posterimallissa mainitut asiat, ks. malli http://users.jyu.fi/~varsa/jgl/posteri.jpg. Peliposteri kiinnitetään ryhmän huoneen seinälle, ja sen avulla on helppo kertoa pelistä esimerkiksi vierailijoille.
 
-Kaikki tiedostot tallennetaan GitHubiin, mielellään julkiseen tietovarastoon, ja mielellään samaan tietovarastoon suunnitteludokumenttien ja viikkoraporttien kanssa (ks. myöhemmät kohdat).
+Kaikki tiedostot tallennetaan GitHubiin samaan tietovarastoon suunnitteludokumenttien ja viikkoraporttien kanssa (ks. myöhemmät kohdat).
 
 ## Pulmatilainteiden ratkaisu
 
@@ -209,7 +211,7 @@ Ryhmä esittää ilman eri pyyntöä tapaamisessa ainakin seuraavat asiat.
 
 Yksi ryhmän jäsenistä toimii sihteerinä kirjaten läsnäolijat sekä yleisluontoisesti palaverissa käsitellyt asiat ja tehdyt päätökset. Sihteeri valitaan ennen ohjaustapaamista. Muistion perusteella myös myös ne jäsenet ketkä eivät päässeet paikalle tapaamiseen saavat käsityksen palaverissa käsitellyistä ja sovituista asioista. Muistiota voi hyödyntää myös projektiraportin osana projektin päättyessä. 
 
-Muistio tallennetaan Trelloon. Saattaa olla hyödyllistä luoda oma lista palaverimuistioille. Laita kortin nimeksi `vvvv-kk-pp-ohjaustapaaminen`, eli esimerkiksi `2015-08-17-ohjaustapaaminen`. 
+Muistio laaditaan plain text -formaatissa (esimerkiksi Markdown) ja tallennetaan Githubiin yksityiseen tietovarastoon. Laita muistion nimeksi `vvvv-kk-pp-ohjaustapaaminen.md`, eli esimerkiksi `2015-08-17-ohjaustapaaminen.md`. Jos kuitenkin ryhmän toimintamalliin paremmin sopii kirjoitettua muistiota paremmin jokin muu malli (esimerkiksi Trello-kortti tai -kortit, TODO-lista, tms.) niin tämä ei ole mikään kiveen hakattu sääntö, vaan ennemmin suositus. Tärkeintä on että ryhmän sisällä sekä ryhmän ja ohjaajan välillä tieto kulkee mutkattomasti.
 
 ## Osaamisaluetapaamiset
 
@@ -220,6 +222,8 @@ Muistio tallennetaan Trelloon. Saattaa olla hyödyllistä luoda oma lista palave
 Tuottaja laatii lyhyen *viikkoraportin* projektista joka viikko. Raportti pitää sisällään menneen viikon työtehtävät (karkealla tasolla) jäsenittäin ja niihin käytetyn työajan, sekä suunnitelman tulevan viikon työtehtävien jaosta ja ajoituksesta. Lisäksi viikkoraportissa on reflektio projektin kokonaiskehityksestä (aikataulu, laajuus, esiin tulleet haasteet, jne.) ja mahdolliset toimenpide-ehdotukset (rajaaminen, tehtävien tai roolien muuttaminen, jne.)
 
 Viikkoraportti laaditaan perjantaihin kello 15 mennessä. Raportti tehdään plain textina markdown-formaatissa ja se on *lyhyt ja ytimekäs*, noin 10 riviä. Anna nimeksi `viikko-vv-ryhmanNimi.md`, esimerkiksi `viikko-42-snowhound.md` ja laita se samaan yksityiseen tietovarastoon synopsiksen kanssa. 
+
+Viikkoraportti voi toimia pohjana ohjaustapaamiselle. Lisäksi se antaa JGL-projektin henkilökunnalle tärkeää tietoa ryhmien etenemisestä. 
 
 ## Esittelytilaisuudet
 
@@ -276,7 +280,7 @@ Käytämme JGL:ssä GitHubia versiohallintaan. Rekisteröidy ennen lab-jakson al
 
 Mikäli et ole opiskelija, voit kuitenkin rekisteröityä GitHubiin. Riittää, että yhdellä ryhmän jäsenellä on opiskelijakortti, jolloin koko tiimi voi käyttää kyseisen jäsenen hankkimaa yksityistä varastoa. Halutessanne ryhmä voi toki myös kehittää peliä julkisessa tietovarastossa, mutta siinä tapauksessa on tietysti kiinnitettävä erityisen tarkkaa huomiota tietoturvaan (ei salasanoja tms. lähdekoodissa). 
 
-Kun tiedät ryhmäsi lopullisen kokoonpanon, lisää kaikille ryhmäsi jäsenille sekä kummiohjaajalle pääsyoikeus (collaborator) varastoon.
+Kun tiedät ryhmäsi lopullisen kokoonpanon, lisää kaikille ryhmäsi jäsenille sekä kummiohjaajalle pääsyoikeus (collaborator) varastoon. Lisää collaboratoriksi myös tekninen ohjaaja (syksyllä 2015 Juha Möttönen). 
 
 Suosittelemme, että peliprojekti laitetaan ainakin aluksi yksityiseen tietovarastoon, ja projektin valmistuessa tietovarasto voidaan tehdä julkiseksi. Suunnitteludokumentit (synopsis, ks. luku *Suunnitteludokumentit*) laitetaan julkiseen tietovarastoon, joten peliprojektia varten tarvitaan ainakin kaksi GitHub-tietovarastoa.
 
